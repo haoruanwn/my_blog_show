@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Sun, 11 May 2025 01:10:36 +0800</pubDate>
+        <lastBuildDate>Sun, 11 May 2025 01:10:36 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2025/05/11/hello-world/</guid>
+            <title>Hello World</title>
+            <link>http://example.com/2025/05/11/hello-world/</link>
+            <pubDate>Sun, 11 May 2025 01:10:36 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo new &amp;quot;My New Post&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo generate
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo deploy
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2025/05/10/%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/</guid>
+            <title>文章测试</title>
+            <link>http://example.com/2025/05/10/%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/</link>
+            <pubDate>Sat, 10 May 2025 23:58:47 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;使用的工具&#34;&gt;&lt;a href=&#34;#使用的工具&#34; class=&#34;headerlink&#34; title=&#34;使用的工具&#34;&gt;&lt;/a&gt;使用的工具&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;vscode 			      编辑器&lt;/li&gt;
+&lt;li&gt;cmake  	 	            工程构建工具&lt;/li&gt;
+&lt;li&gt;ninja     		             工程编译工具&lt;/li&gt;
+&lt;li&gt;openOCD  			烧录工具&lt;/li&gt;
+&lt;li&gt;arm-gnu-toolchain          交叉编译器&lt;/li&gt;
+&lt;li&gt;clangd                               代码提示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;一、安装需要的工具链&#34;&gt;&lt;a href=&#34;#一、安装需要的工具链&#34; class=&#34;headerlink&#34; title=&#34;一、安装需要的工具链&#34;&gt;&lt;/a&gt;一、安装需要的工具链&lt;/h1&gt;&lt;h2 id=&#34;1、下载&#34;&gt;&lt;a href=&#34;#1、下载&#34; class=&#34;headerlink&#34; title=&#34;1、下载&#34;&gt;&lt;/a&gt;1、下载&lt;/h2&gt;&lt;h2 id=&#34;2、添加到系统环境变量&#34;&gt;&lt;a href=&#34;#2、添加到系统环境变量&#34; class=&#34;headerlink&#34; title=&#34;2、添加到系统环境变量&#34;&gt;&lt;/a&gt;2、添加到系统环境变量&lt;/h2&gt;&lt;p&gt;系统环境变量path&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D:\toochain\ninja&lt;/li&gt;
+&lt;li&gt;D:\toochain\arm-gnu-toolchain-14.2\bin&lt;/li&gt;
+&lt;li&gt;D:\toochain\clang+llvm-19.1.7\bin&lt;/li&gt;
+&lt;li&gt;D:\toochain\OpenOCD-20240916\bin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;新建系统环境变量OPENOCD_SCRIPTS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D:\toochain\OpenOCD-20240916\share\openocd\scripts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;二、构建工程&#34;&gt;&lt;a href=&#34;#二、构建工程&#34; class=&#34;headerlink&#34; title=&#34;二、构建工程&#34;&gt;&lt;/a&gt;二、构建工程&lt;/h1&gt;&lt;h2 id=&#34;1、直接用命令行&#34;&gt;&lt;a href=&#34;#1、直接用命令行&#34; class=&#34;headerlink&#34; title=&#34;1、直接用命令行&#34;&gt;&lt;/a&gt;1、直接用命令行&lt;/h2&gt;&lt;p&gt;在工程根目录&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cmake -G Ninja -B build
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;指定Ninja为构建工具，生成到build文件夹中&lt;/p&gt;
+&lt;p&gt;编译&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cmake --build build --target all
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;或者进入到build目录下，执行&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ninja
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;2、设置task&#34;&gt;&lt;a href=&#34;#2、设置task&#34; class=&#34;headerlink&#34; title=&#34;2、设置task&#34;&gt;&lt;/a&gt;2、设置task&lt;/h2&gt;&lt;p&gt;创建&lt;code&gt;.vscode/tasks.json&lt;/code&gt;文件&lt;/p&gt;
+&lt;p&gt;创建三个任务：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CMake configure：用cmake生成ninja、compile_commands.json等文件&lt;/li&gt;
+&lt;li&gt;Build：编译&lt;/li&gt;
+&lt;li&gt;Clean：删除build和.cache文件夹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;&amp;#123;
+    &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,
+    &amp;quot;tasks&amp;quot;: [
+        &amp;#123;
+            &amp;quot;label&amp;quot;: &amp;quot;CMake configure&amp;quot;,
+            &amp;quot;type&amp;quot;: &amp;quot;shell&amp;quot;,
+            &amp;quot;command&amp;quot;: &amp;quot;cmake&amp;quot;,
+            &amp;quot;args&amp;quot;: [
+                &amp;quot;-G&amp;quot;, &amp;quot;Ninja&amp;quot;,
+                &amp;quot;-B&amp;quot;, &amp;quot;build&amp;quot;
+            ],
+            &amp;quot;group&amp;quot;: &amp;#123;
+                &amp;quot;kind&amp;quot;: &amp;quot;build&amp;quot;,
+                &amp;quot;isDefault&amp;quot;: true
+            &amp;#125;,
+            &amp;quot;problemMatcher&amp;quot;: [&amp;quot;$gcc&amp;quot;],
+            &amp;quot;detail&amp;quot;: &amp;quot;Generated task for CMake configure&amp;quot;
+        &amp;#125;,
+        &amp;#123;
+            &amp;quot;label&amp;quot;: &amp;quot;Build&amp;quot;,
+            &amp;quot;type&amp;quot;: &amp;quot;shell&amp;quot;,
+            &amp;quot;command&amp;quot;: &amp;quot;cmake&amp;quot;,
+            &amp;quot;args&amp;quot;: [
+                &amp;quot;--build&amp;quot;, &amp;quot;build&amp;quot;,
+                &amp;quot;--target&amp;quot;, &amp;quot;all&amp;quot;
+            ],
+            &amp;quot;group&amp;quot;: &amp;#123;
+                &amp;quot;kind&amp;quot;: &amp;quot;build&amp;quot;,
+                &amp;quot;isDefault&amp;quot;: false
+            &amp;#125;,
+            &amp;quot;problemMatcher&amp;quot;: [&amp;quot;$gcc&amp;quot;],
+            &amp;quot;detail&amp;quot;: &amp;quot;Generated task for building the project&amp;quot;
+        &amp;#125;,
+        &amp;#123;
+            &amp;quot;label&amp;quot;: &amp;quot;Clean&amp;quot;,
+            &amp;quot;type&amp;quot;: &amp;quot;shell&amp;quot;,
+            &amp;quot;command&amp;quot;: &amp;quot;cmd&amp;quot;,
+            &amp;quot;args&amp;quot;: [
+                &amp;quot;/c&amp;quot;,
+                &amp;quot;rmdir /s /q build &amp;amp;&amp;amp; rmdir /s /q .cache&amp;quot;
+            ],
+            &amp;quot;group&amp;quot;: &amp;#123;
+                &amp;quot;kind&amp;quot;: &amp;quot;build&amp;quot;,
+                &amp;quot;isDefault&amp;quot;: false
+            &amp;#125;,
+            &amp;quot;problemMatcher&amp;quot;: [],
+            &amp;quot;detail&amp;quot;: &amp;quot;Generated task for cleaning the build and cache directories&amp;quot;
+        &amp;#125;
+    ]
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果是Linux系统，Clean任务需要修改为：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;		&amp;#123;
+            &amp;quot;label&amp;quot;: &amp;quot;Clean&amp;quot;,
+            &amp;quot;type&amp;quot;: &amp;quot;shell&amp;quot;,
+            &amp;quot;command&amp;quot;: &amp;quot;sh&amp;quot;,
+            &amp;quot;args&amp;quot;: [
+                &amp;quot;-c&amp;quot;,
+                &amp;quot;rm -rf build .cache&amp;quot;
+            ],
+            &amp;quot;group&amp;quot;: &amp;#123;
+                &amp;quot;kind&amp;quot;: &amp;quot;build&amp;quot;,
+                &amp;quot;isDefault&amp;quot;: false
+            &amp;#125;,
+            &amp;quot;problemMatcher&amp;quot;: [],
+            &amp;quot;detail&amp;quot;: &amp;quot;Generated task for cleaning the build and cache directories&amp;quot;
+        &amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;3、设置快捷按钮&#34;&gt;&lt;a href=&#34;#3、设置快捷按钮&#34; class=&#34;headerlink&#34; title=&#34;3、设置快捷按钮&#34;&gt;&lt;/a&gt;3、设置快捷按钮&lt;/h2&gt;&lt;p&gt;使用vscode插件&lt;strong&gt;Task Buttons&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;.vscode/settings.json&lt;/code&gt;中自定义按钮&lt;/p&gt;
+&lt;p&gt;对应tasks.json中定义的三个任务&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;&amp;#123;
+    &amp;quot;clangd.arguments&amp;quot;: [
+        &amp;quot;--compile-commands-dir=$&amp;#123;workspaceFolder&amp;#125;/build&amp;quot;
+    ],
+
+    &amp;quot;VsCodeTaskButtons.showCounter&amp;quot;: true,
+    &amp;quot;VsCodeTaskButtons.tasks&amp;quot;: [
+        &amp;#123;
+            &amp;quot;label&amp;quot;: &amp;quot;$(wrench) Configure&amp;quot;,
+            &amp;quot;task&amp;quot;: &amp;quot;CMake configure&amp;quot;,
+            &amp;quot;tooltip&amp;quot;: &amp;quot;Configure the project with CMake&amp;quot;
+        &amp;#125;,
+        &amp;#123;
+            &amp;quot;label&amp;quot;: &amp;quot;$(tools) Build&amp;quot;,
+            &amp;quot;task&amp;quot;: &amp;quot;Build&amp;quot;,
+            &amp;quot;tooltip&amp;quot;: &amp;quot;Build the project&amp;quot;
+        &amp;#125;,
+        &amp;#123;
+            &amp;quot;label&amp;quot;: &amp;quot;$(trash) Clean&amp;quot;,
+            &amp;quot;task&amp;quot;: &amp;quot;Clean&amp;quot;,
+            &amp;quot;tooltip&amp;quot;: &amp;quot;Build the project&amp;quot;
+        &amp;#125;
+    ]
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;三、修改芯片ram、flash、堆栈&#34;&gt;&lt;a href=&#34;#三、修改芯片ram、flash、堆栈&#34; class=&#34;headerlink&#34; title=&#34;三、修改芯片ram、flash、堆栈&#34;&gt;&lt;/a&gt;三、修改芯片ram、flash、堆栈&lt;/h1&gt;&lt;p&gt;在工程根目录中的&lt;code&gt;STM32H750XBHx_FLASH.ld&lt;/code&gt;链接脚本中进行修改&lt;/p&gt;
+&lt;h3 id=&#34;1、ram、flash大小修改&#34;&gt;&lt;a href=&#34;#1、ram、flash大小修改&#34; class=&#34;headerlink&#34; title=&#34;1、ram、flash大小修改&#34;&gt;&lt;/a&gt;1、ram、flash大小修改&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;language-cmake&#34;&gt;/* Specify the memory areas */
+MEMORY
+&amp;#123;
+DTCMRAM (xrw)      : ORIGIN = 0x20000000, LENGTH = 128K
+RAM (xrw)      : ORIGIN = 0x24000000, LENGTH = 512K
+RAM_D2 (xrw)      : ORIGIN = 0x30000000, LENGTH = 288K
+RAM_D3 (xrw)      : ORIGIN = 0x38000000, LENGTH = 64K
+ITCMRAM (xrw)      : ORIGIN = 0x00000000, LENGTH = 64K
+FLASH (rx)      : ORIGIN = 0x8000000, LENGTH = 128K
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;   比如我要用外部存储w25q256，修改flash的地址和长度&lt;/p&gt;
+&lt;p&gt;   根据图中的配置来修改：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://markdownforyuanhao.oss-cn-hangzhou.aliyuncs.com/img1/202505092247882.png&#34; alt=&#34;flash_1&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmake&#34;&gt;/* Specify the memory areas */
+MEMORY
+&amp;#123;
+DTCMRAM (xrw)      : ORIGIN = 0x20000000, LENGTH = 128K
+RAM (xrw)      : ORIGIN = 0x24000000, LENGTH = 512K
+RAM_D2 (xrw)      : ORIGIN = 0x30000000, LENGTH = 288K
+RAM_D3 (xrw)      : ORIGIN = 0x38000000, LENGTH = 64K
+ITCMRAM (xrw)      : ORIGIN = 0x00000000, LENGTH = 64K
+FLASH (rx)      : ORIGIN = 0x90000000, LENGTH = 32M
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;2、修改堆栈大小&#34;&gt;&lt;a href=&#34;#2、修改堆栈大小&#34; class=&#34;headerlink&#34; title=&#34;2、修改堆栈大小&#34;&gt;&lt;/a&gt;2、修改堆栈大小&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;/* Generate a link error if heap and stack don&amp;#39;t fit into RAM */
+_Min_Heap_Size = 0x200;      	/* required amount of heap  */
+_Min_Stack_Size = 0x400; 		/* required amount of stack */
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;四、烧录&#34;&gt;&lt;a href=&#34;#四、烧录&#34; class=&#34;headerlink&#34; title=&#34;四、烧录&#34;&gt;&lt;/a&gt;四、烧录&lt;/h1&gt;&lt;h2 id=&#34;1、使用STM32CubeProgrammer烧录&#34;&gt;&lt;a href=&#34;#1、使用STM32CubeProgrammer烧录&#34; class=&#34;headerlink&#34; title=&#34;1、使用STM32CubeProgrammer烧录&#34;&gt;&lt;/a&gt;1、使用STM32CubeProgrammer烧录&lt;/h2&gt;&lt;p&gt;参考网上的使用指南，比如&lt;a href=&#34;https://www.armbbs.cn/forum.php?mod=viewthread&amp;tid=100658&#34;&gt;安富莱外部下载算法&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2、使用openOCD进行烧录&#34;&gt;&lt;a href=&#34;#2、使用openOCD进行烧录&#34; class=&#34;headerlink&#34; title=&#34;2、使用openOCD进行烧录&#34;&gt;&lt;/a&gt;2、使用openOCD进行烧录&lt;/h2&gt;&lt;p&gt;参考&lt;a href=&#34;../../%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&amp;%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/%E7%94%A8openocd%E8%BF%9B%E8%A1%8C%E7%83%A7%E5%BD%95%E5%92%8C%E8%B0%83%E8%AF%95.md&#34;&gt;用openocd进行烧录和调试&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;五、其他配置&#34;&gt;&lt;a href=&#34;#五、其他配置&#34; class=&#34;headerlink&#34; title=&#34;五、其他配置&#34;&gt;&lt;/a&gt;五、其他配置&lt;/h1&gt;&lt;h3 id=&#34;1、添加ninja输出高亮&#34;&gt;&lt;a href=&#34;#1、添加ninja输出高亮&#34; class=&#34;headerlink&#34; title=&#34;1、添加ninja输出高亮&#34;&gt;&lt;/a&gt;1、添加ninja输出高亮&lt;/h3&gt;&lt;p&gt;   在顶层CMakeLists中添加&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmake&#34;&gt;# 启用 Ninja 颜色支持
+ add_compile_options(-fdiagnostics-color=always)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;2、设置编译出的文件为hex文件&#34;&gt;&lt;a href=&#34;#2、设置编译出的文件为hex文件&#34; class=&#34;headerlink&#34; title=&#34;2、设置编译出的文件为hex文件&#34;&gt;&lt;/a&gt;2、设置编译出的文件为hex文件&lt;/h3&gt;&lt;p&gt;   在顶层cmakelists文件末尾添加：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmake&#34;&gt;# 添加生成 hex 文件的步骤
+add_custom_command(TARGET $&amp;#123;CMAKE_PROJECT_NAME&amp;#125; POST_BUILD
+    COMMAND $&amp;#123;CMAKE_OBJCOPY&amp;#125; -O ihex $&amp;#123;CMAKE_BINARY_DIR&amp;#125;/$&amp;#123;CMAKE_PROJECT_NAME&amp;#125;.elf $&amp;#123;CMAKE_BINARY_DIR&amp;#125;/$&amp;#123;CMAKE_PROJECT_NAME&amp;#125;.hex
+    COMMENT &amp;quot;Generating hex file from elf&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;3、设置为从外部flash中启动&#34;&gt;&lt;a href=&#34;#3、设置为从外部flash中启动&#34; class=&#34;headerlink&#34; title=&#34;3、设置为从外部flash中启动&#34;&gt;&lt;/a&gt;3、&lt;strong&gt;设置为从外部flash中启动&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;   修改中断向量表偏移地址&lt;/p&gt;
+&lt;p&gt;   在&lt;code&gt;./Core/Src/system_stm32h7xx.c&lt;/code&gt;的SystemInit函数末尾添加&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;void SystemInit (void)
+&amp;#123;
+......
+#endif /* USER_VECT_TAB_ADDRESS */
+
+#endif /*DUAL_CORE &amp;amp;&amp;amp; CORE_CM4*/
+  /*偏移中断向量表*/
+  SCB-&amp;gt;VTOR = 0x90000000;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;4、设置格式化工具&#34;&gt;&lt;a href=&#34;#4、设置格式化工具&#34; class=&#34;headerlink&#34; title=&#34;4、设置格式化工具&#34;&gt;&lt;/a&gt;4、&lt;strong&gt;设置格式化工具&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;   在工程根目录中创建&lt;code&gt;.clang-format&lt;/code&gt;文件&lt;/p&gt;
+&lt;p&gt;   将格式化代码的形式设置为微软的格式：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;BasedOnStyle: Microsoft
+AccessModifierOffset: -4
+AlignConsecutiveMacros: true
+AlignTrailingComments: true
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: false
+BreakBeforeBraces: Allman
+ColumnLimit: 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;5、clangd无法识别标准c库&#34;&gt;&lt;a href=&#34;#5、clangd无法识别标准c库&#34; class=&#34;headerlink&#34; title=&#34;5、clangd无法识别标准c库&#34;&gt;&lt;/a&gt;5、&lt;strong&gt;clangd无法识别标准c库&lt;/strong&gt;&lt;/h3&gt;&lt;h3 id=&#34;6、启用微库microLIB&#34;&gt;&lt;a href=&#34;#6、启用微库microLIB&#34; class=&#34;headerlink&#34; title=&#34;6、启用微库microLIB&#34;&gt;&lt;/a&gt;6、&lt;strong&gt;启用微库microLIB&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;   比如重定向&lt;code&gt;printf()&lt;/code&gt;标准输出函数到串口&lt;/p&gt;
+&lt;p&gt;   在顶层CMakeLists中添加&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmake&#34;&gt;# 启用microLIB
+set(CMAKE_C_FLAGS &amp;quot;$&amp;#123;CMAKE_C_FLAGS&amp;#125; -specs=nosys.specs&amp;quot;)
+set(CMAKE_CXX_FLAGS &amp;quot;$&amp;#123;CMAKE_CXX_FLAGS&amp;#125; -specs=nosys.specs&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;7、重定向printf函数&#34;&gt;&lt;a href=&#34;#7、重定向printf函数&#34; class=&#34;headerlink&#34; title=&#34;7、重定向printf函数&#34;&gt;&lt;/a&gt;7、&lt;strong&gt;重定向printf函数&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;   前提：启用微库microLIB&lt;/p&gt;
+&lt;p&gt;   在usart.c中添加&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;......
+    
+/* 包含头文件 */
+#include &amp;lt;stdarg.h&amp;gt;
+#include &amp;quot;stdio.h&amp;quot;
+    
+    
+/* 用户函数 */
+/* USER CODE BEGIN 1 */
+__IO int _write(int file, char *ptr, int len)
+&amp;#123;
+    (void)file;
+
+    HAL_UART_Transmit(&amp;amp;huart1,(uint8_t *)ptr,len, 200);        //串口发送字符数组（字符串）
+
+    return len;
+&amp;#125;
+/* USER CODE END 1 */
+
+......
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;   将这两个头文件放在&lt;code&gt;main.h&lt;/code&gt;中，这样所有文件都可以用&lt;code&gt;printf()&lt;/code&gt;函数&lt;/p&gt;
+&lt;p&gt;   &lt;strong&gt;注意&lt;/strong&gt;：不同交叉编译器使用的microLIB不一样，重定向printf的方法不一样，上述方法适用于使用&lt;code&gt;arm-none-eabi-gcc&lt;/code&gt;的工程，比如cmake或者stm32cubeide&lt;/p&gt;
+&lt;h3 id=&#34;8、添加自定义的源文件和头文件路径&#34;&gt;&lt;a href=&#34;#8、添加自定义的源文件和头文件路径&#34; class=&#34;headerlink&#34; title=&#34;8、添加自定义的源文件和头文件路径&#34;&gt;&lt;/a&gt;8、&lt;strong&gt;添加自定义的源文件和头文件路径&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;示例：&lt;/p&gt;
+&lt;p&gt;用户源文件在&lt;code&gt;./Drivers/user/Src&lt;/code&gt;中，遍历该路径下所有源文件&lt;/p&gt;
+&lt;p&gt;用户头文件在&lt;code&gt;./Drivers/user/Inc&lt;/code&gt;中，添加该头文件路径&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmake&#34;&gt;......
+# Link directories setup
+target_link_directories($&amp;#123;CMAKE_PROJECT_NAME&amp;#125; PRIVATE
+    # Add user defined library search paths
+)
+
+# 从./Drivers/user/Src遍历的添加源文件，添加到USER_SOURCES变量中
+file(GLOB USER_SOURCES ./Drivers/user/Src/*.c)
+
+# Add sources to executable
+target_sources($&amp;#123;CMAKE_PROJECT_NAME&amp;#125; PRIVATE
+    # Add user sources here
+    $&amp;#123;USER_SOURCES&amp;#125;
+)
+
+# 添加头文件路径
+# Add include paths
+target_include_directories($&amp;#123;CMAKE_PROJECT_NAME&amp;#125; PRIVATE
+    # Add user defined include paths
+    ./Drivers/user/Inc
+)
+......
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;先用&lt;code&gt;file&lt;/code&gt;命令遍历式的把指定文件夹中的所有源文件都添加到USER_SOURCE变量中，再用已有的&lt;code&gt;target_sources&lt;/code&gt;添加到可执行文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用已有的&lt;code&gt;target_include_directories&lt;/code&gt;添加头文件路径&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2025/05/10/%E6%B5%8B%E8%AF%95/</guid>
+            <title>测试</title>
+            <link>http://example.com/2025/05/10/%E6%B5%8B%E8%AF%95/</link>
+            <pubDate>Sat, 10 May 2025 22:34:15 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
+    </channel>
+</rss>
